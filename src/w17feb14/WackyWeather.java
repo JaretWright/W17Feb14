@@ -13,4 +13,16 @@ public class WackyWeather {
     {
         return num1 + num2;
     }
+    
+    public String weatherInfo(int temp)
+    {
+        if (temp >= 0)
+            return "Wow that's warm for winter";
+        else if (temp > -10)
+            return "That's beautiful for winter";
+        else if (temp > -20)
+            return "Joel's super happy";
+        else
+            return "that's just cold";
+    }
 }
